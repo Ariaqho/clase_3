@@ -1,0 +1,31 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.wrapper {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+        "nav nav nav nav"
+        "slider slider slider slider"
+        "main main main main"
+        "pilars pilars pilars pilars"
+        "footer footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 4fr 3fr 3fr 0.5fr;
+}
+
+@media only screen and (max-width: 550px) {
+    .wrapper{
+        grid-template-areas: 
+        "nav"
+        "slider"
+        "main"
+        "pilars"
+        "pilars"
+        "pilars"
+        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 4fr 3fr 3fr 0.5fr;
+    }
+}
