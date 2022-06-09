@@ -15,7 +15,6 @@
 }
 
 .nav-button {
-    border: 1px splid #211a21;
     display: flex;
     align-items: flex-end;
     &__1 {
@@ -24,6 +23,8 @@
         border-radius: 0.75em;
         padding: 10px 24px;
         margin: 1em;
+        text-decoration: none;
+        border: 1px splid #211a21;
     }
     &__2 {
         background-color: #4f43ae;
@@ -31,6 +32,8 @@
         border-radius: 0.75em;
         padding: 10px 24px;
         margin: 1em;
+        text-decoration: none;
+        border: 1px splid #211a21;
     }
 }
 
