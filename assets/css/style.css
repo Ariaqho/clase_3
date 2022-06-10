@@ -55,8 +55,13 @@ body {
   grid-area: main;
   padding: 2em;
   background-color: #cec9cc; }
-  .main-title {
-    font-size: x-large; }
+  .main--box {
+    border: 3px solid #4f43ae;
+    margin: 1em;
+    padding: 1em;
+    font-size: x-large;
+    background-color: white;
+    height: auto; }
 
 .pilars {
   grid-area: pilars;
@@ -64,13 +69,19 @@ body {
   background-color: #cec9cc; }
   .pilars--1 {
     margin: 1em;
-    background-color: white; }
+    background-color: white;
+    height: auto;
+    border: #4f43ae; }
   .pilars--2 {
     margin: 1em;
-    background-color: white; }
+    background-color: white;
+    height: auto;
+    border: #4f43ae; }
   .pilars--3 {
     margin: 1em;
-    background-color: white; }
+    background-color: white;
+    height: auto;
+    border: #4f43ae; }
 
 .footer {
   grid-area: footer;

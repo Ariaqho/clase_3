@@ -48,9 +48,14 @@
 .main {
     grid-area: main;
     padding: 2em;
-    background-color: #cec9cc;
-    &-title {
+    background-color: #cec9cc;    
+    &--box {
+        border: 3px solid #4f43ae;
+        margin: 1em;
+        padding: 1em;
         font-size: x-large;
+        background-color: white;
+        height: auto;
     }
 }
 
@@ -61,14 +66,17 @@
     &--1 {
         margin: 1em;
         background-color: white;
+        height: auto;
     }
     &--2 {
         margin: 1em;
         background-color: white;
+        height: auto;
     }
     &--3 {
         margin: 1em;
         background-color: white;
+        height: auto;
     }
 }
 
