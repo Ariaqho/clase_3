@@ -88,6 +88,7 @@ body {
   column-gap: 5px;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #cec9cc; }
+  background-color: #cec9cc;
+  position: static; }
 
 /*# sourceMappingURL=style.css.map */
