@@ -10,7 +10,7 @@ body {
 
 @media only screen and (max-width: 550px) {
   .wrapper {
-    grid-template-areas: "nav" "slider" "main" "pilars" "pilars" "pilars" "footer";
+    grid-template-areas: "nav" "slider" "main" "pilars" "footer";
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 4fr 3fr 3fr 0.5fr; } }
 .nav-bar {
@@ -88,7 +88,6 @@ body {
   column-gap: 5px;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #cec9cc;
-  position: static; }
+  background-color: #cec9cc; }
 
 /*# sourceMappingURL=style.css.map */
